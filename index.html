@@ -3,7 +3,8 @@
 <head>
     <title>How Bad Could It Be?</title>
 <style>
-  h1{font-family:Georgia}
+  h1{font-family:Georgia;
+  color:firebrick}
   h3{font-family:Georgia}
   p{
   font-family:Georgia;
@@ -25,6 +26,12 @@ img{margin: auto;
   width: 900px;
   height: 600px;
 }
+.container{
+  max-width: 900px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px
+}
 .center{
   display: block;
   margin-left: auto;
@@ -33,8 +40,8 @@ img{margin: auto;
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width,initial-scale=1">
     <body>
-<h1>How Bad Could It Be? </h1>
-<h3>Comparing Air Pollution in China and New York</h3>
+<h1><center>How Bad Could It Be?</center></h1>
+<h3><center>Comparing Air Pollution in China and New York</center></h3>
 
 <img src="smog2.jpeg"
 width = "750"
@@ -65,17 +72,20 @@ years in Beijing and Huludao. This data was run through pandas, then turned into
 Air pollution levels were measured by the AQI level of <a href="https://www.health.ny.gov/environmental/indoors/air/pmq_a.htm">pm2.5</a> in the air, a particle created by burning coal, petrol, and wood -
 a particle linked to increased rates of lung and cardiovascular disease when breathed in over a long period of time.</p>
 
+<div class ="container"> 
 <iframe title="Towering Over the Haze" aria-label="Grouped Column Chart" id="datawrapper-chart-r4YCP" src="https://datawrapper.dwcdn.net/r4YCP/12/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
+</div>
 
 <p>When put together, there is a gradual convergence over four years - Huludao's worst day so far in 2023 is around 
 half its personal worst in 2020, while New York's worst day has risen to meet the worst levels of these two Chinese cities.</p>
 
 <p>Measuring 'the worst' does not account for distribution or averages....</p>
 
+<div class="container">
 <iframe title="Annual Averages Are Lower and More Varied..." aria-label="Grouped Column Chart" id="datawrapper-chart-teoBZ" src="https://datawrapper.dwcdn.net/teoBZ/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
 </script>
-
+</div>
 <p>We are also only halfway through 2023, making for an incomplete data-point for this year - the worst in Beijing and Huludao could be later in the year.</p> 
 
 <p>This is more about perceptions. Wildfires are expected to grow in frequency and severity as global temperatures rise. Meanwhile, China has dramatically <a href="https://www.bloomberg.com/news/articles/2022-06-14/china-s-clean-air-campaign-is-bringing-down-global-pollution#xj4y7vzkg">cut back</a> its air pollution.
